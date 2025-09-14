@@ -1,0 +1,6 @@
+/* Styles Index - Import all component styles */
+@import './layout.css';
+@import './navigation.css';
+@import './hero.css';
+@import './projects.css';
+@import './contact.css';
