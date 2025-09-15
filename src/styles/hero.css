@@ -27,6 +27,8 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   line-height: 1.2;
+  text-shadow: 0 4px 20px rgba(0, 229, 255, 0.3);
+  letter-spacing: -0.02em;
 }
 
 .hero-subtitle {
@@ -72,8 +74,8 @@
 }
 
 .cta-btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
   background: linear-gradient(135deg, #1d4ed8, #1e40af);
 }
 
@@ -86,8 +88,8 @@
 .cta-btn-secondary:hover {
   background: #2563eb;
   color: white;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.3);
 }
 
 /* About Me Section */
@@ -192,10 +194,11 @@
 }
 
 .skill-tag-large:hover {
-  background: rgba(37, 99, 235, 0.15);
+  background: rgba(37, 99, 235, 0.2);
   border-color: #2563eb;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  color: #1e40af;
 }
 
 /* Responsive Hero */

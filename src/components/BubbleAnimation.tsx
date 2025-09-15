@@ -108,7 +108,7 @@ const BubbleAnimation = () => {
       const particles = particleContainer.querySelectorAll('div:not(.floating-orb)');
       
       // Update floating orbs - move away from mouse
-      orbs.forEach((orb, index) => {
+      orbs.forEach((orb) => {
         const element = orb as HTMLElement;
         const rect = element.getBoundingClientRect();
         const elementCenterX = rect.left + rect.width / 2;
@@ -138,7 +138,7 @@ const BubbleAnimation = () => {
       });
 
         // Update small particles - move away from mouse
-        particles.forEach((particle, index) => {
+        particles.forEach((particle) => {
           const element = particle as HTMLElement;
           const rect = element.getBoundingClientRect();
           const elementCenterX = rect.left + rect.width / 2;

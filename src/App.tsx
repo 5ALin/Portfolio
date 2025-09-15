@@ -42,7 +42,7 @@ function App() {
       <main className="main-content">
         {/* Hero Section */}
         {activeSection === 'home' && (
-          <section id="home" className="hero-section">
+          <section id="home" className="hero-section fade-in">
             <div className="hero-content">
               <h1 className="hero-title">
                 Hi, I'm <span className="highlight">Samuel Zihao Lin</span>
@@ -167,7 +167,7 @@ function App() {
 
         {/* Projects Section */}
         {activeSection === 'projects' && (
-          <section id="projects" className="projects-section">
+          <section id="projects" className="projects-section fade-in">
             <div className="container">
               <h2 className="section-title">Featured Projects</h2>
             <div className="projects-grid">
@@ -271,7 +271,7 @@ function App() {
 
         {/* Contact Info */}
         {activeSection === 'contact' && (
-          <section id="contact" className="contact-section">
+          <section id="contact" className="contact-section fade-in">
             <div className="container">
               <h2 className="section-title">Get In Touch</h2>
               <div className="contact-info-simple">
