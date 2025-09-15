@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import HamburgerMenu from './components/HamburgerMenu';
+// import React, { useState } from 'react';
+import { useState } from 'react';
+// import HamburgerMenu from './components/HamburgerMenu';
 import WaveAnimation from './components/WaveAnimation';
 import './App.css';
 
