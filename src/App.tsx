@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import { useState } from 'react';
 // import HamburgerMenu from './components/HamburgerMenu';
-import WaveAnimation from './components/WaveAnimation';
+import BubbleAnimation from './components/BubbleAnimation';
 import './App.css';
 
 function App() {
@@ -296,8 +296,8 @@ function App() {
         )}
       </main>
 
-      {/* Wave Animation Background */}
-      <WaveAnimation />
+      {/* Bubble Animation Background */}
+      <BubbleAnimation />
       </div>
   );
 }
