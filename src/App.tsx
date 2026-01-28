@@ -76,7 +76,7 @@ function App() {
                 <a href="#contact" className="cta-btn cta-btn-secondary" onClick={() => setActiveSection('contact')}>
                   Get In Touch
                 </a>
-                <a href="/SamuelLin_Resume.pdf" target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn-secondary">
+                <a href="/Portfolio/SamuelLin_Resume.pdf" target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn-secondary">
                   Download Resume
                 </a>
               </div>
@@ -271,28 +271,42 @@ function App() {
 
         {/* Contact Info */}
         {activeSection === 'contact' && (
-          <section id="contact" className="contact-section fade-in">
-            <div className="container">
-              <h2 className="section-title">Get In Touch</h2>
-              <div className="contact-info-simple">
-                <div className="contact-item">
-                  <strong>Email:</strong> 4130samuellin@gmail.com
-                </div>
-                <div className="contact-item">
-                  <strong>Phone:</strong> 516-265-8184
-                </div>
-                <div className="contact-item">
-                  <strong>GitHub:</strong> <a href="https://github.com/5ALin" target="_blank" rel="noopener noreferrer" style={{color: '#3b82f6'}}>@5ALin</a>
-                </div>
-                <div className="contact-item">
-                  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samuellin4/" target="_blank" rel="noopener noreferrer" style={{color: '#3b82f6'}}>Samuel Lin</a>
-                </div>
-                <div className="contact-item">
-                  <strong>Resume:</strong> <a href="/SamuelLin_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#3b82f6'}}>Download PDF</a>
+          <>
+            <section id="contact" className="contact-section fade-in">
+              <div className="container">
+                <h2 className="section-title">Get In Touch</h2>
+                <div className="contact-info-simple">
+                  <div className="contact-item">
+                    <strong>Email:</strong> 4130samuellin@gmail.com
+                  </div>
+                  <div className="contact-item">
+                    <strong>Phone:</strong> 516-265-8184
+                  </div>
+                  <div className="contact-item">
+                    <strong>GitHub:</strong> <a href="https://github.com/5ALin" target="_blank" rel="noopener noreferrer" style={{color: '#3b82f6'}}>@5ALin</a>
+                  </div>
+                  <div className="contact-item">
+                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samuellin4/" target="_blank" rel="noopener noreferrer" style={{color: '#3b82f6'}}>Samuel Lin</a>
+                  </div>
+                  <div className="contact-item">
+                    <strong>Resume:</strong> 
+                    <a href="/Portfolio/SamuelLin_Resume.pdf" download="SamuelLin_Resume.pdf" style={{color: '#3b82f6', textDecoration: 'none'}}>Download PDF</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+            <section className="resume-section fade-in">
+              <div className="resume-container">
+                <div className="resume-viewer">
+                  <iframe 
+                    src="/Portfolio/SamuelLin_Resume.pdf"
+                    className="resume-iframe"
+                    title="Resume PDF Viewer"
+                  />
+                </div>
+              </div>
+            </section>
+          </>
         )}
       </main>
 
