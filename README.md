@@ -4,13 +4,13 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. F
 
 ## Features
 
-- 🎨 **Modern Design**: Clean, professional layout with gradient backgrounds
-- 🌊 **3D Wave Animation**: Interactive 3D background using Three.js and React Three Fiber
-- 📱 **Responsive**: Fully responsive design that works on all devices
-- ⚡ **Fast**: Built with Vite for lightning-fast development and builds
-- 🎯 **Smooth Navigation**: Hamburger menu with smooth scrolling to sections
-- 💫 **Animations**: Subtle animations and hover effects throughout
-- 🎨 **Custom Styling**: Custom CSS with modern design patterns
+- **Modern Design**: Clean, professional layout with gradient backgrounds
+- **3D Wave Animation**: Interactive 3D background using Three.js and React Three Fiber
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast**: Built with Vite for lightning-fast development and builds
+- **Smooth Navigation**: Hamburger menu with smooth scrolling to sections
+- **Animations**: Subtle animations and hover effects throughout
+- **Custom Styling**: Custom CSS with modern design patterns
 
 ## Sections
 
